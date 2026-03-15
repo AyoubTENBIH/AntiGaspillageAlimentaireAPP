@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_client"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.anti_gaspillagealimentaireapp.ui.client.HomeFragment"
+        android:label="Accueil" />
+    <fragment
+        android:id="@+id/carteFragment"
+        android:name="com.example.anti_gaspillagealimentaireapp.ui.client.CarteFragment"
+        android:label="Carte" />
+    <fragment
+        android:id="@+id/favorisFragment"
+        android:name="com.example.anti_gaspillagealimentaireapp.ui.client.FavorisFragment"
+        android:label="Favoris" />
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.example.anti_gaspillagealimentaireapp.ui.client.HistoryFragment"
+        android:label="@string/history" />
+    <fragment
+        android:id="@+id/profilFragment"
+        android:name="com.example.anti_gaspillagealimentaireapp.ui.client.ProfilFragment"
+        android:label="Profil" />
+    <fragment
+        android:id="@+id/commerceDetailFragment"
+        android:name="com.example.anti_gaspillagealimentaireapp.ui.client.CommerceDetailFragment"
+        android:label="@string/commerce_detail">
+        <argument android:name="commerceId" app:argType="long" />
+    </fragment>
+    <fragment
+        android:id="@+id/panierDetailFragment"
+        android:name="com.example.anti_gaspillagealimentaireapp.ui.client.PanierDetailFragment"
+        android:label="@string/panier_detail">
+        <argument android:name="panierId" app:argType="long" />
+    </fragment>
+    <fragment
+        android:id="@+id/notificationsFragment"
+        android:name="com.example.anti_gaspillagealimentaireapp.ui.client.NotificationsFragment"
+        android:label="Notifications" />
+</navigation>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Titres (sans Poppins : police système ; ajouter res/font/poppins_*.ttf pour Poppins) -->
+    <style name="TextAppearance.SaveAt.H1" parent="@style/TextAppearance.MaterialComponents.Headline5">
+        <item name="android:textSize">24sp</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="android:textColor">@color/text_h1</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.SaveAt.H2" parent="@style/TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/text_h1</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.SaveAt.H3" parent="@style/TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/text_h1</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Corps de texte -->
+    <style name="TextAppearance.SaveAt.Body" parent="@style/TextAppearance.MaterialComponents.Body1">
+        <item name="android:textSize">15sp</item>
+        <item name="android:lineSpacingExtra">7sp</item>
+        <item name="android:textColor">@color/text_body</item>
+    </style>
+
+    <style name="TextAppearance.SaveAt.Caption" parent="@style/TextAppearance.MaterialComponents.Caption">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!-- Prix -->
+    <style name="TextAppearance.SaveAt.Price" parent="@style/TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/accent_lime</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Prix barré : appliquer strikethrough en code (paintFlags = STRIKE_THRU_TEXT_FLAG) -->
+    <style name="TextAppearance.SaveAt.PriceOld" parent="@style/TextAppearance.MaterialComponents.Caption">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/text_hint</item>
+    </style>
+
+</resources>

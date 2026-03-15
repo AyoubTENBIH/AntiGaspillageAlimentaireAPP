@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SaveAt</string>
+
+    <!-- Splash & Onboarding -->
+    <string name="splash_logo_content_description">SaveAt Logo</string>
+    <string name="onboarding_slide1_title">Commandez malin</string>
+    <string name="onboarding_slide1_desc">Réservez des paniers invendus chez vos commerçants préférés.</string>
+    <string name="onboarding_slide2_title">Réduisez le gaspillage</string>
+    <string name="onboarding_slide2_desc">Chaque panier réservé évite du gaspillage alimentaire.</string>
+    <string name="onboarding_slide3_title">Économisez jusqu\'à 70%</string>
+    <string name="onboarding_slide3_desc">Des produits de qualité à prix réduits.</string>
+    <string name="onboarding_start">Commencer</string>
+
+    <!-- Auth -->
+    <string name="login">Connexion</string>
+    <string name="register">Inscription</string>
+    <string name="email">Email</string>
+    <string name="password">Mot de passe</string>
+    <string name="confirm_password">Confirmer le mot de passe</string>
+    <string name="name">Nom</string>
+    <string name="client">Client</string>
+    <string name="merchant">Commerçant</string>
+    <string name="login_button">Se connecter</string>
+    <string name="register_button">Créer un compte</string>
+    <string name="login_error">Email ou mot de passe incorrect.</string>
+    <string name="register_error_passwords">Les mots de passe ne correspondent pas.</string>
+    <string name="register_error_email_exists">Cet email est déjà utilisé.</string>
+
+    <string name="login_title">Bon retour 👋</string>
+    <string name="login_subtitle">Connectez-vous pour continuer</string>
+    <string name="login_to_register">Pas encore inscrit ? Créer un compte</string>
+    <string name="register_title">Créer un compte</string>
+    <string name="register_to_login">Déjà un compte ? Se connecter</string>
+
+    <!-- Home Client -->
+    <string name="location_default">Naperville, IL</string>
+    <string name="search_hint">Rechercher un commerce ou un panier…</string>
+    <string name="banner_promo_title">Livraison gratuite pour les paniers</string>
+    <string name="banner_promo_subtitle">Jusqu\'à 3 réservations par jour.</string>
+    <string name="order_now">Réserver</string>
+    <string name="category_bakery">Boulangerie</string>
+    <string name="category_restaurant">Restaurant</string>
+    <string name="category_grocery">Épicerie</string>
+    <string name="commerces_nearby">Commerces proches</string>
+    <string name="paniers_available">Paniers du moment</string>
+    <string name="paniers_count">%d paniers dispo</string>
+    <string name="see_more">Voir plus</string>
+
+    <!-- Commerce & Panier -->
+    <string name="commerce_detail">Détail commerce</string>
+    <string name="paniers_available_count">Voir %d paniers disponibles</string>
+    <string name="panier_detail">Détail panier</string>
+    <string name="economy">Économie</string>
+    <string name="quantity">Quantité</string>
+    <string name="freshness">Fraîcheur</string>
+    <string name="co2_saved">CO₂ évité</string>
+    <string name="description">Description</string>
+    <string name="show_more">Afficher plus</string>
+    <string name="show_less">Afficher moins</string>
+    <string name="reserve_now">Réserver maintenant</string>
+    <string name="reservation_success">Réservation enregistrée.</string>
+    <string name="reservation_error">Impossible de réserver ce panier.</string>
+    <string name="panier_quantity_units">%d unités</string>
+    <string name="freshness_today">Auj.</string>
+    <string name="freshness_1day">1 jour</string>
+    <string name="freshness_days">%d j</string>
+    <string name="co2_kg">-%s kg</string>
+    <string name="expires_on">Expire le %s</string>
+
+    <!-- History -->
+    <string name="history">Historique</string>
+    <string name="tab_in_progress">En cours</string>
+    <string name="tab_past">Passées</string>
+    <string name="tab_cancelled">Annulées</string>
+    <string name="cancel_reservation">Annuler la réservation</string>
+    <string name="cancel_confirm">Êtes-vous sûr d\'annuler cette réservation ?</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="status_pending">En attente</string>
+    <string name="status_confirmed">Confirmée</string>
+    <string name="status_cancelled">Annulée</string>
+    <string name="empty_reservations">Aucune réservation.</string>
+
+    <!-- Merchant -->
+    <string name="dashboard">Tableau de bord</string>
+    <string name="hello_user">Bonjour %s 👋</string>
+    <string name="active_paniers">Paniers actifs</string>
+    <string name="reservations_today">Réservations aujourd\'hui</string>
+    <string name="revenue_week">Revenus semaine</string>
+    <string name="add_panier">Ajouter un panier</string>
+    <string name="new_panier">Nouveau panier</string>
+    <string name="edit_panier">Modifier le panier</string>
+    <string name="save">Enregistrer</string>
+    <string name="publish_offer">Publier l\'offre</string>
+    <string name="panier_title">Titre</string>
+    <string name="panier_description">Description</string>
+    <string name="panier_price">Prix (€)</string>
+    <string name="panier_quantity">Quantité</string>
+    <string name="panier_expiration">Date d\'expiration</string>
+    <string name="panier_image_url">URL image</string>
+    <string name="error_min_chars">Minimum %d caractères</string>
+    <string name="error_invalid_price">Prix invalide</string>
+    <string name="confirm">Confirmer</string>
+    <string name="cancel">Annuler</string>
+    <string name="merchant_reservations">Réservations reçues</string>
+    <string name="logout">Se déconnecter</string>
+    <string name="no_favorites">Aucun panier en favori pour le moment.</string>
+    <string name="unknown_user">Utilisateur</string>
+
+    <!-- Nouveaux textes UI -->
+    <string name="no_favorites_title">Aucun favori pour l\'instant</string>
+    <string name="no_favorites_subtitle">Ajoutez des paniers en appuyant sur le cœur</string>
+    <string name="explore_paniers">Explorer les paniers</string>
+    <string name="stat_reservations">Réservations</string>
+    <string name="stat_favorites">Favoris</string>
+    <string name="stat_savings">Économisé</string>
+    <string name="profile_account">Mon compte</string>
+    <string name="profile_notifications">Notifications</string>
+    <string name="profile_help">Aide &amp; Support</string>
+    <string name="favorites_title">Favoris</string>
+    <string name="profile_title">Profil</string>
+    <string name="add_to_cart">Ajouter au panier</string>
+    <string name="image_panier">Image du panier</string>
+    <string name="favorite">Favori</string>
+    <string name="profile_photo">Photo de profil</string>
+    <string name="profile_email">Email</string>
+    <string name="profile_change_password">Changer le mot de passe</string>
+    <string name="change_photo">Changer la photo</string>
+    <string name="change_password">Changer le mot de passe</string>
+    <string name="profile_personal_info">Informations personnelles</string>
+    <string name="profile_preferences">Préférences</string>
+    <string name="dialog_change_password">Changer le mot de passe</string>
+    <string name="current_password">Mot de passe actuel</string>
+    <string name="new_password">Nouveau mot de passe</string>
+    <string name="password_updated">Mot de passe mis à jour</string>
+    <string name="password_error_match">Les mots de passe ne correspondent pas</string>
+    <string name="password_error_wrong">Mot de passe actuel incorrect</string>
+    <string name="password_error_short">Minimum 4 caractères</string>
+
+    <!-- Notifications locales (v1) -->
+    <string name="notification_channel_reminders">Rappels SaveAt</string>
+    <string name="notification_reminder_title">Rappel réservation</string>
+    <string name="notification_reminder_body">N\'oubliez pas : vous avez %d panier(s) à récupérer aujourd\'hui.</string>
+    <string name="notification_reminder_one">N\'oubliez pas de récupérer votre panier aujourd\'hui.</string>
+</resources>

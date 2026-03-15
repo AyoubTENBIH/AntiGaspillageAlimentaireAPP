@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_merchant"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.example.anti_gaspillagealimentaireapp.ui.merchant.DashboardFragment"
+        android:label="@string/dashboard" />
+    <fragment
+        android:id="@+id/paniersFragment"
+        android:name="com.example.anti_gaspillagealimentaireapp.ui.merchant.PaniersListFragment"
+        android:label="Mes paniers">
+        <action
+            android:id="@+id/action_paniers_to_panier_detail"
+            app:destination="@id/panierDetailMerchantFragment"
+            app:popUpTo="@id/paniersFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/reservationsFragment"
+        android:name="com.example.anti_gaspillagealimentaireapp.ui.merchant.MerchantReservationsFragment"
+        android:label="@string/merchant_reservations" />
+    <fragment
+        android:id="@+id/profilMerchantFragment"
+        android:name="com.example.anti_gaspillagealimentaireapp.ui.merchant.ProfilMerchantFragment"
+        android:label="Profil" />
+    <fragment
+        android:id="@+id/panierDetailMerchantFragment"
+        android:name="com.example.anti_gaspillagealimentaireapp.ui.merchant.PanierDetailMerchantFragment"
+        android:label="Détail panier">
+        <argument
+            android:name="panierId"
+            app:argType="long" />
+    </fragment>
+</navigation>

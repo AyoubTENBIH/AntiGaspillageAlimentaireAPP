@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SaveAt — palette naturelle & fraîcheur -->
+<resources>
+    <!-- Backgrounds -->
+    <color name="bg_main">#FAFAF7</color>
+    <color name="bg_surface">#FFFFFF</color>
+    <color name="bg_secondary">#F2F4EF</color>
+    <color name="bg_input">#F0F2ED</color>
+
+    <!-- Accent principal — Vert naturel -->
+    <color name="accent_primary">#5C8A3C</color>
+    <color name="accent_light">#A8CC6E</color>
+    <color name="accent_lime">#C6F135</color>
+    <color name="accent_surface">#EEF5E6</color>
+
+    <!-- Textes -->
+    <color name="text_h1">#1C2115</color>
+    <color name="text_body">#3D4A35</color>
+    <color name="text_secondary">#7A8C6E</color>
+    <color name="text_hint">#B0BCA8</color>
+
+    <!-- États -->
+    <color name="status_pending">#F5A623</color>
+    <color name="status_confirmed">#5C8A3C</color>
+    <color name="status_cancelled">#E53935</color>
+
+    <!-- Surfaces -->
+    <color name="surface_secondary">#E8EDE2</color>
+
+    <!-- Divers -->
+    <color name="divider">#E8EDE2</color>
+    <color name="shadow">#1A000000</color>
+    <color name="overlay_dark">#CC1C2115</color>
+
+    <!-- Alias pour compatibilité anciens layouts -->
+    <color name="white">#FFFFFF</color>
+    <color name="primary">#1C2115</color>
+    <color name="accent">#C6F135</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="background">#FAFAF7</color>
+    <color name="text_primary">#1C2115</color>
+    <color name="text_tertiary">#B0BCA8</color>
+</resources>

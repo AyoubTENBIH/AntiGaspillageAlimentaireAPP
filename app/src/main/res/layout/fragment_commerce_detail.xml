@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_main">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scrollCommerceDetail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/hero_commerce_height">
+                <ImageView
+                    android:id="@+id/heroImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:background="@color/accent_surface" />
+                <ImageButton
+                    android:id="@+id/backButton"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:layout_gravity="start|top"
+                    android:layout_margin="@dimen/spacing_m"
+                    android:background="@drawable/bg_button_circle_white"
+                    android:contentDescription="Retour"
+                    android:src="@drawable/ic_arrow_back_rounded"
+                    app:tint="@color/text_body" />
+            </FrameLayout>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/spacing_screen_h"
+                android:layout_marginTop="-24dp"
+                app:cardCornerRadius="24dp"
+                app:cardElevation="@dimen/elevation_card">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/spacing_m">
+
+                    <TextView
+                        android:id="@+id/commerceName"
+                        style="@style/TextAppearance.SaveAt.H1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/spacing_s"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/ic_location_on_rounded"
+                            app:tint="@color/text_secondary" />
+
+                        <TextView
+                            android:id="@+id/commerceAddress"
+                            style="@style/TextAppearance.SaveAt.Caption"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/spacing_s"
+                            android:layout_weight="1" />
+                    </LinearLayout>
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/commerceCategory"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/spacing_s"
+                        android:textColor="@color/accent_primary" />
+
+                    <TextView
+                        style="@style/TextAppearance.SaveAt.H2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/spacing_l"
+                        android:text="@string/paniers_available" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerPaniers"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/spacing_s"
+                        android:nestedScrollingEnabled="false"
+                        android:paddingBottom="80dp" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/buttonVoirPaniers"
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:layout_marginTop="@dimen/spacing_m"
+                        android:layout_marginBottom="@dimen/spacing_m"
+                        android:textColor="@android:color/white"
+                        app:backgroundTint="@color/accent_primary"
+                        app:cornerRadius="@dimen/radius_pill" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

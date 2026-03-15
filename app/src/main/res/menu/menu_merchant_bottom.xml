@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/dashboardFragment" android:icon="@android:drawable/ic_menu_manage" android:title="@string/dashboard" />
+    <item android:id="@+id/paniersFragment" android:icon="@android:drawable/ic_menu_agenda" android:title="Paniers" />
+    <item android:id="@+id/reservationsFragment" android:icon="@android:drawable/ic_menu_recent_history" android:title="@string/merchant_reservations" />
+    <item android:id="@+id/profilMerchantFragment" android:icon="@android:drawable/ic_menu_myplaces" android:title="Profil" />
+</menu>

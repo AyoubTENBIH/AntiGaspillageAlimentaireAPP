@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.anti_gaspillagealimentaireapp.ui.auth.SplashFragment"
+        android:label="Splash" />
+    <fragment
+        android:id="@+id/onboardingFragment"
+        android:name="com.example.anti_gaspillagealimentaireapp.ui.auth.OnboardingFragment"
+        android:label="Onboarding" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.anti_gaspillagealimentaireapp.ui.auth.LoginFragment"
+        android:label="Connexion" />
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.anti_gaspillagealimentaireapp.ui.auth.RegisterFragment"
+        android:label="Inscription" />
+</navigation>

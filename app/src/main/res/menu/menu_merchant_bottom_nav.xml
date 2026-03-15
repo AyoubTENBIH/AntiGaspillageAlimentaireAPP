@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/dashboardFragment"
+        android:icon="@drawable/ic_nav_dashboard"
+        android:title="@string/dashboard"/>
+    <item
+        android:id="@+id/paniersFragment"
+        android:icon="@drawable/ic_nav_paniers"
+        android:title="Mes paniers"/>
+    <item
+        android:id="@+id/reservationsFragment"
+        android:icon="@drawable/ic_nav_reservations"
+        android:title="@string/merchant_reservations"/>
+    <item
+        android:id="@+id/profilMerchantFragment"
+        android:icon="@drawable/ic_nav_profil"
+        android:title="Profil"/>
+</menu>

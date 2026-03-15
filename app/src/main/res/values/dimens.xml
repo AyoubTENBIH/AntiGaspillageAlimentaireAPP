@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SaveAt — espacement & rayons cohérents -->
+<resources>
+    <!-- Échelle d'espacement globale -->
+    <dimen name="spacing_xs">4dp</dimen>
+    <dimen name="spacing_s">8dp</dimen>
+    <dimen name="spacing_m">16dp</dimen>
+    <dimen name="spacing_l">24dp</dimen>
+    <dimen name="spacing_xl">32dp</dimen>
+
+    <!-- Espacements spécifiques existants -->
+    <dimen name="spacing_screen_h">20dp</dimen>
+    <dimen name="spacing_card_gap">16dp</dimen>
+    <dimen name="spacing_card_inner">16dp</dimen>
+    <dimen name="spacing_section">28dp</dimen>
+
+    <!-- Trait outline bouton -->
+    <dimen name="stroke_width_outline">1dp</dimen>
+
+    <!-- Rayons -->
+    <dimen name="radius_extra_large">24dp</dimen>
+    <dimen name="radius_large">16dp</dimen>
+    <dimen name="radius_medium">12dp</dimen>
+    <dimen name="radius_small">8dp</dimen>
+    <dimen name="radius_pill">50dp</dimen>
+
+    <!-- Élévations -->
+    <dimen name="elevation_card">3dp</dimen>
+    <dimen name="elevation_card_pressed">8dp</dimen>
+    <dimen name="elevation_bottom_bar">20dp</dimen>
+
+    <!-- Cartes & héros -->
+    <dimen name="card_commerce_width">165dp</dimen>
+    <dimen name="card_commerce_height">210dp</dimen>
+    <dimen name="card_commerce_image_height">120dp</dimen>
+    <dimen name="hero_image_height">260dp</dimen>
+    <dimen name="hero_commerce_height">240dp</dimen>
+</resources>
